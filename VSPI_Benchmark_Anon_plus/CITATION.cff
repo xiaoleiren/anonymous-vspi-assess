@@ -1,0 +1,7 @@
+cff-version: 1.2.0
+message: "If you use this repository, please cite the associated paper."
+title: "VSPI Benchmark (anonymous, de-weaponized release scaffold)"
+authors:
+  - family-names: "PLACEHOLDER"
+    given-names: "PLACEHOLDER"
+version: "0.1.0"

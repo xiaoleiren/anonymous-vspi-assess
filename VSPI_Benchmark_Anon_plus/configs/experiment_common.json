@@ -1,0 +1,10 @@
+{
+  "task_modes": {
+    "default": "transcribe_summarize",
+    "ablation_no_benign_framing": "no_benign_framing"
+  },
+  "resolutions": ["800x400", "1024x512", "max"],
+  "transforms": ["none", "resize0.5", "resize1.0", "resize1.5", "jpeg70", "jpeg90"],
+  "defenses": ["none", "ocr_gating", "inst_data_sep"],
+  "template_families": ["vspi_terminal", "vspi_diagram", "typography_only"]
+}

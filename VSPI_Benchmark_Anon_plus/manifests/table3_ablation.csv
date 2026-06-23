@@ -1,0 +1,4 @@
+row_name,defense.mode,compare_against
+Baseline,none,
+InstDataSep,inst_data_sep,Baseline
+OCRGate,ocr_gating,Baseline

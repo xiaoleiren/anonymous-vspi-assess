@@ -1,0 +1,23 @@
+{
+  "dummy": {
+    "backend": "dummy",
+    "model": "dummy",
+    "temperature": 0.0,
+    "max_output_tokens": 512,
+    "notes": "Deterministic pipeline validation backend."
+  },
+  "gpt4o_snapshot": {
+    "backend": "openai",
+    "model": "gpt-4o-2024-11-20",
+    "temperature": 0.0,
+    "max_output_tokens": 512,
+    "notes": "Pinned snapshot used in the draft paper."
+  },
+  "gemini3_preview": {
+    "backend": "gemini",
+    "model": "gemini-3-pro-preview",
+    "temperature": 0.0,
+    "max_output_tokens": 512,
+    "notes": "Late-2025 common Gemini configuration."
+  }
+}
