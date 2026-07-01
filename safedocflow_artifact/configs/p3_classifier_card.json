@@ -1,0 +1,14 @@
+{
+  "classifier_name": "SafeDocFlow-D3-reference-v1",
+  "classifier_version": "SafeDocFlow-D3-reference-v1.0.0",
+  "type": "redacted public reference text-safety classifier",
+  "decision_threshold": 1,
+  "input": "OCR-extracted text only",
+  "output": "allow or block",
+  "target_mllm_call": false,
+  "intended_use": "P3 text-first classifier baseline in the public artifact scaffold",
+  "limitations": [
+    "This public reference classifier is a safe reproducibility scaffold, not a production safety model.",
+    "Private evaluations should preserve the exact classifier model, prompt/rubric, threshold, and code/service hash in run records."
+  ]
+}

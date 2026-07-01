@@ -1,0 +1,5 @@
+model,text_unsafe,text_total,vspi_unsafe,vspi_total,b_vspi_unsafe_text_safe,c_text_unsafe_vspi_safe,a_both_unsafe,d_both_safe
+GPT-4o,6,100,28,100,22,0,6,72
+Gemini 1.5 Pro,7,100,31,100,24,0,7,69
+LLaVA-v1.6-34B,10,100,38,100,28,0,10,62
+InternVL2-76B,7,100,34,100,27,0,7,66

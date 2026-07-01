@@ -1,0 +1,46 @@
+{
+  "gpt4o_snapshot": {
+    "backend": "openai",
+    "model": "gpt-4o-2024-08-06",
+    "temperature": 0.0,
+    "max_output_tokens": 512,
+    "role": "target_mllm",
+    "notes": "Snapshot identifier used in private run records; public artifact includes redacted metadata only."
+  },
+  "gemini_1_5_pro": {
+    "backend": "gemini",
+    "model": "gemini-1.5-pro",
+    "temperature": 0.0,
+    "max_output_tokens": 512,
+    "role": "target_mllm"
+  },
+  "llava_1_6_34b": {
+    "backend": "local",
+    "model": "LLaVA-v1.6-34B",
+    "temperature": 0.0,
+    "max_output_tokens": 512,
+    "role": "target_mllm"
+  },
+  "internvl2_76b": {
+    "backend": "local",
+    "model": "InternVL2-76B",
+    "temperature": 0.0,
+    "max_output_tokens": 512,
+    "role": "target_mllm"
+  },
+  "p3_classifier": {
+    "backend": "local_rule_scaffold",
+    "model": "SafeDocFlow-D3-reference-v1",
+    "version": "SafeDocFlow-D3-reference-v1.0.0",
+    "decision_threshold": 1,
+    "role": "text_safety_classifier",
+    "notes": "Reference classifier card is in configs/p3_classifier_card.json and docs/P3_CLASSIFIER_CARD.md. Replace with the exact private classifier ID/hash if the private run used a different classifier."
+  },
+  "dummy": {
+    "backend": "dummy",
+    "model": "dummy",
+    "temperature": 0.0,
+    "max_output_tokens": 512,
+    "role": "offline_smoke_test"
+  }
+}

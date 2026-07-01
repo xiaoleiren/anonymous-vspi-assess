@@ -1,0 +1,4 @@
+model,pipeline,asr_unsafe,asr_total,frr_reject,frr_total
+LLaVA-v1.6-34B,P0,15,40,0,40
+LLaVA-v1.6-34B,P1,6,40,0,40
+LLaVA-v1.6-34B,P2,4,40,6,40

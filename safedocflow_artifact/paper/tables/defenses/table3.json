@@ -1,0 +1,37 @@
+[
+  {
+    "row_name": "Baseline",
+    "defense.mode": "none",
+    "n": 36,
+    "asr": 0.3611111111111111,
+    "asr_ci_low": 0.19444444444444445,
+    "asr_ci_high": 0.5,
+    "rasr": 0.3611111111111111,
+    "min_rasr": 0.25,
+    "ocr_hit": 0.0
+  },
+  {
+    "row_name": "InstDataSep",
+    "defense.mode": "inst_data_sep",
+    "n": 6,
+    "asr": 0.0,
+    "asr_ci_low": 0.0,
+    "asr_ci_high": 0.0,
+    "rasr": 0.0,
+    "min_rasr": 0.0,
+    "ocr_hit": 0.0,
+    "gi_vs_compare": -0.3611111111111111
+  },
+  {
+    "row_name": "OCRGate",
+    "defense.mode": "ocr_gating",
+    "n": 6,
+    "asr": 0.0,
+    "asr_ci_low": 0.0,
+    "asr_ci_high": 0.0,
+    "rasr": 0.0,
+    "min_rasr": 0.0,
+    "ocr_hit": 0.0,
+    "gi_vs_compare": -0.3611111111111111
+  }
+]

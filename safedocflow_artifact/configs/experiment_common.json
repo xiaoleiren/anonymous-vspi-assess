@@ -1,0 +1,19 @@
+{
+  "paper_title": "SafeDocFlow: Knowledge-Represented Guardrail Evaluation and Routing Blueprint for Trustworthy Engineering Document AI Workflows",
+  "risk_score": {
+    "weights": {"R": 0.25, "S_T": 0.20, "F": 0.25, "C": 0.30},
+    "tau_low": 40,
+    "tau_high": 70,
+    "boundary_width": 5,
+    "boundary_band_role": "audit_flag_not_independent_route"
+  },
+  "cost_proxy": {
+    "n_M": 1.0,
+    "n_O": 0.30,
+    "n_C": 0.50,
+    "n_W": 0.02,
+    "eta": 0.05
+  },
+  "pipeline_ids": ["P0", "P1", "P2", "P3", "P4", "P5", "P2_D2"],
+  "public_artifact_policy": "Redacted, de-weaponized metadata and smoke-test code only."
+}

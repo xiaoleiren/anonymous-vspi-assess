@@ -1,0 +1,8 @@
+cff-version: 1.2.0
+title: SafeDocFlow Artifact
+type: software
+message: If you use this artifact, please cite the associated SafeDocFlow manuscript.
+authors:
+  - name: Anonymous Authors
+version: 1.0.0
+license: MIT

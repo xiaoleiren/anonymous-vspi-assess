@@ -1,0 +1,154 @@
+{
+  "ablation_tests": {
+    "d2_vs_p2_asr_fisher": 0.7930325900299509,
+    "d2_vs_p2_frr_fisher": 0.49175626159171115,
+    "p1_vs_d2_fisher": 0.8116794678235131
+  },
+  "break_even": {
+    "pooled_lambda_star": 3.5499999999999994,
+    "prevalence_lambda_star": {
+      "0.5": 3.85,
+      "0.8": 14.5,
+      "0.9": 32.25,
+      "0.99": 351.75,
+      "0.999": 3546.75
+    }
+  },
+  "llava_supplement": {
+    "p1_pooled": "17/120",
+    "p2_frr_pooled": "19/120",
+    "p2_pooled": "11/120"
+  },
+  "main_results": [
+    {
+      "gap": 0.22000000000000003,
+      "mcnemar_p": 4.76837158203125e-07,
+      "model": "GPT-4o",
+      "text_asr": 0.06,
+      "vspi_asr": 0.28
+    },
+    {
+      "gap": 0.24,
+      "mcnemar_p": 1.1920928955078125e-07,
+      "model": "Gemini 1.5 Pro",
+      "text_asr": 0.07,
+      "vspi_asr": 0.31
+    },
+    {
+      "gap": 0.28,
+      "mcnemar_p": 7.450580596923828e-09,
+      "model": "LLaVA-v1.6-34B",
+      "text_asr": 0.1,
+      "vspi_asr": 0.38
+    },
+    {
+      "gap": 0.27,
+      "mcnemar_p": 1.4901161193847656e-08,
+      "model": "InternVL2-76B",
+      "text_asr": 0.07,
+      "vspi_asr": 0.34
+    }
+  ],
+  "p1_p2_tests": {
+    "aggregate_fisher_p": 0.4537797166245001,
+    "b": 4,
+    "c": 0,
+    "mcnemar_p": 0.125
+  },
+  "p3_classifier": {
+    "classifier_name": "SafeDocFlow-D3-reference-v1",
+    "classifier_version": "SafeDocFlow-D3-reference-v1.0.0",
+    "demo_label": "block"
+  },
+  "pipeline_summary": {
+    "P0": {
+      "asr": 0.3125,
+      "asr_ci": [
+        0.213,
+        0.426
+      ],
+      "cost": 1.0,
+      "frr": 0.0,
+      "frr_ci": [
+        0.0,
+        0.045
+      ]
+    },
+    "P1": {
+      "asr": 0.1375,
+      "asr_ci": [
+        0.071,
+        0.233
+      ],
+      "cost": 1.02,
+      "frr": 0.0,
+      "frr_ci": [
+        0.0,
+        0.045
+      ]
+    },
+    "P2": {
+      "asr": 0.0875,
+      "asr_ci": [
+        0.036,
+        0.172
+      ],
+      "cost": 1.32,
+      "frr": 0.1625,
+      "frr_ci": [
+        0.089,
+        0.262
+      ]
+    },
+    "P2_D2": {
+      "asr": 0.1125,
+      "asr_ci": [
+        0.053,
+        0.203
+      ],
+      "cost": 1.3,
+      "frr": 0.1125,
+      "frr_ci": [
+        0.053,
+        0.203
+      ]
+    },
+    "P3": {
+      "asr": 0.2,
+      "asr_ci": [
+        0.119,
+        0.304
+      ],
+      "cost": 0.8,
+      "frr": 0.1125,
+      "frr_ci": [
+        0.053,
+        0.203
+      ]
+    }
+  },
+  "risk_score": {
+    "strict_high_risk_route": {
+      "audit_flags": [],
+      "boundary_band": false,
+      "risk_score": 100.0,
+      "routing_reason": "high_risk_high_fn_strict_frr",
+      "selected_pipeline": "P5",
+      "workflow_predicates": {
+        "classifier_available": true,
+        "high_fn_cost": true,
+        "mandatory_review": false,
+        "ocr_available": true,
+        "safety_critical_domain": true,
+        "strict_frr_tolerance": true,
+        "text_first_required": false
+      }
+    },
+    "worked_example_default": 72.5
+  },
+  "risk_stability": {
+    "crossed": 4,
+    "samples": 100,
+    "volatility": 0.04
+  }
+}

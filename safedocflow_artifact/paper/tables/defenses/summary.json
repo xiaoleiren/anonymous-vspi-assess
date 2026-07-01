@@ -1,0 +1,14 @@
+{
+  "n": 48,
+  "asr": 0.2708333333333333,
+  "asr_ci_low": 0.14583333333333334,
+  "asr_ci_high": 0.3958333333333333,
+  "rasr": 0.2708333333333333,
+  "min_rasr": 0.1875,
+  "ocr_hit": 0.0,
+  "num_rows": 48,
+  "taxonomy_counts": {
+    "unsafe_other": 13,
+    "safe_refusal": 35
+  }
+}

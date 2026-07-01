@@ -1,0 +1,16 @@
+model,condition,asr,n,ocr_hit,lpips
+GPT-4o,VSPI full,0.28,100,0.91,0.0
+GPT-4o,Generic framing,0.23,100,0.91,0.0
+GPT-4o,No-structure,0.16,100,0.88,0.21
+GPT-4o,Explicit-untrusted,0.09,100,0.91,0.0
+GPT-4o,Typo baseline,0.18,100,0.91,0.0
+Gemini 1.5 Pro,VSPI full,0.31,100,0.91,0.0
+Gemini 1.5 Pro,Generic framing,0.25,100,0.91,0.0
+Gemini 1.5 Pro,No-structure,0.18,100,0.88,0.21
+Gemini 1.5 Pro,Explicit-untrusted,0.11,100,0.91,0.0
+Gemini 1.5 Pro,Typo baseline,0.2,100,0.91,0.0
+InternVL2-76B,VSPI full,0.34,100,0.91,0.0
+InternVL2-76B,Generic framing,0.27,100,0.91,0.0
+InternVL2-76B,No-structure,0.2,100,0.88,0.21
+InternVL2-76B,Explicit-untrusted,0.13,100,0.91,0.0
+InternVL2-76B,Typo baseline,0.22,100,0.91,0.0

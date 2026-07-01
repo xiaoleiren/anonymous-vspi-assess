@@ -1,0 +1,15 @@
+{
+  "high_fn_cost": {
+    "definition": "True if fn_cost_level is high/very_high, policy marks regulated_compliance=true, or the local false-negative/false-reject cost ratio is at or above locally recalibrated lambda_star_local.",
+    "note": "The pooled diagnostic reference lambda approximately 3.55 is a cold-start illustration only and is not a universal predicate threshold. For benign-heavy deployment traffic, use a prevalence-adjusted local estimate."
+  },
+  "safety_critical_domain": {
+    "definition": "True for construction safety, maintenance, industrial compliance, regulated financial/medical/operational records, or locally designated safety-critical workflows."
+  },
+  "strict_frr_tolerance": {
+    "definition": "True when false rejects must be recovered through human review, manual escalation, or strict operational queue management."
+  },
+  "mandatory_review": {
+    "definition": "True for explicit policy categories that require human review regardless of RiskScore, including legal/regulatory hold, incident-response records, or local policy conflict."
+  }
+}

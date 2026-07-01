@@ -1,0 +1,5 @@
+p1,p2,count
+safe,safe,69
+safe,unsafe,0
+unsafe,safe,4
+unsafe,unsafe,7

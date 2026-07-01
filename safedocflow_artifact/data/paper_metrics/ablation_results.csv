@@ -1,0 +1,5 @@
+pipeline,components,asr_unsafe,asr_total,frr_reject,frr_total,cost
+P0,MLLM only,25,80,0,80,1.0
+P1,D1_image + MLLM,11,80,0,80,1.02
+P2_D2,D2 only: OCR + MLLM,9,80,9,80,1.3
+P2,D2 + D1_text + MLLM,7,80,13,80,1.32

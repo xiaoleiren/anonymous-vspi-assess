@@ -1,0 +1,7 @@
+model,pipeline,asr_unsafe,asr_total,frr_reject,frr_total
+GPT-4o,P1,5,40,0,40
+GPT-4o,P2_D2,4,40,4,40
+GPT-4o,P2,3,40,6,40
+InternVL2-76B,P1,6,40,0,40
+InternVL2-76B,P2_D2,5,40,5,40
+InternVL2-76B,P2,4,40,7,40

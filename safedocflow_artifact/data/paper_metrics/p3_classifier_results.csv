@@ -1,0 +1,2 @@
+classifier_name,classifier_version,threshold,pooled_asr_unsafe,pooled_asr_total,pooled_frr_reject,pooled_frr_total
+SafeDocFlow-D3-reference-v1,SafeDocFlow-D3-reference-v1.0.0,1,16,80,9,80
